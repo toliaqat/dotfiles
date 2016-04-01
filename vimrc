@@ -115,3 +115,17 @@ set smartcase       " ...unless we type a capital
 
 " ================ Custom Settings ========================
 so ~/.yadr/vim/settings.vim
+highlight Constant ctermfg=red
+highlight Identifier ctermfg=LightBlue
+highlight Normal ctermbg=black
+set wildmode=full
+" autocmd VimEnter * NERDTree
+"
+" autocmd VimEnter * wincmd p
+" autocmd VimEnter * NERDTreeMirror
+"" let NERDTreeMapOpenInTab='<ENTER>'
+let g:nerdtree_tabs_open_on_console_startup=1
+
+set paste
+set pastetoggle=<F2>
+set mouse=a
